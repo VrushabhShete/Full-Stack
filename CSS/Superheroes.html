@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superheroes</title>
+
+    <style>
+        .marvel {
+            background-color:red;
+        }
+
+        .dc {
+            background-color: black;
+        }
+
+        .superhero img {
+            width: 300px;
+            height:auto;
+            border:10px solid #3a7ee7;
+            aspect-ratio: 1;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        #superman {
+            width: 400px;
+            height: auto;
+        }
+        img {
+            width: 300px;
+            height: auto;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+            transition: all 1s linear;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="superhero">
+        <img class="dc" src="images/batman.png">
+        <img class="marvel" src="images/cap.png">
+        <img class="marvel" src="images/ironman.png">
+        <img id="superman" class="dc" src="images/superman.png">
+    </div>
+
+    <img src="images/google.png">
+
+</body>
+</html>
