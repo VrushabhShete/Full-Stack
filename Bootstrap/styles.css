@@ -1,0 +1,24 @@
+.bg-body-col {
+    background-color: #d9e6fa;
+}
+
+.colored-section {
+    background-color: #6739b6;
+    height: 2000px;
+}
+
+.green {
+    background-color: #32c888;
+    height: 100px;
+    border: 2px solid #fff;
+}
+
+.row {
+    margin-bottom: 50px;
+}
+
+.red {
+    background-color: #da6a6a;
+    height: 100px;
+    border: 2px solid #fff;
+}
