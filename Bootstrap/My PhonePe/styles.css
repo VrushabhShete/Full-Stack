@@ -1,0 +1,47 @@
+.container-fluid {
+    background-color: #6739B6;
+    padding: 0 10% 10%;
+}
+
+
+.navbar-brand img {
+    width: 250px;
+    height: auto;
+}
+
+.navbar a {
+    font-size: 1.2rem;
+}
+
+.push-right {
+    justify-content: flex-end;
+}
+
+.navbar-nav {
+    padding: 0 10%;
+    margin: 0 15%;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 7%;
+}
+
+.nav-link {
+    color: rgb(185, 180, 180);
+}
+
+.big-heading {
+    font-size: 3rem;
+    color: white;
+    margin: 10% 0;
+}
+
+.image-iphone {
+    width: 20%;
+    right: 20%;
+    position: absolute;
+}
+
+.download-button {
+    margin: 0 3% 5% 0;
+}
